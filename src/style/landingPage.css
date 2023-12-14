@@ -1,0 +1,32 @@
+
+.myBG{
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFF;
+    background-size: cover;
+}
+.bgbot{
+    height: auto ;
+    background-color: #009C86;
+    background-size: cover;
+}
+.tumbnail{
+    height: 500px;
+    justify-content: end;
+}
+
+.text-align{
+    justify-items: center;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box-shadow{
+    -webkit-box-shadow: 23px 0px 28px 3px rgba(0,0,0,0.35);
+    -moz-box-shadow: 23px 0px 28px 3px rgba(0,0,0,0.35);
+    box-shadow: 23px 0px 28px 3px rgba(0,0,0,0.35);
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+    display: flex !important;
+}
