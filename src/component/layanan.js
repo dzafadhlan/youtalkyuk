@@ -4,7 +4,6 @@ import NavigationBar from "./NavigationBar"
 import { Card, Button,ButtonGroup, Col, Row, Dropdown } from "react-bootstrap";
 import icon from "../assets/iconLandingPage.png"
 import "../style/landingPage.css"
-import { Link } from "react-router-dom";
 
 const BASE_URL = "https://jazzy-dango-17b14f.netlify.app/.netlify/functions/api/dokter"
 

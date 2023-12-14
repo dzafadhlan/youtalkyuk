@@ -13,7 +13,7 @@ const Login = ()=> {
     const [message, setMessage] = useState('')
     
     const handleLogin = async () =>{
-        axios({
+        await axios({
             method : 'POST',
             url : BASE_URL,
             data:{
